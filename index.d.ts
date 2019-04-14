@@ -1,7 +1,7 @@
-import fetch = require('node-fetch');
+import { string } from "prop-types";
 
-declare namespace OpenPlayer {
-    export interface getFiles {
-        fileId: string;
-    }
+interface Files {
+    label: string;
+    file: string;
 }
+declare function getFiles(id: string): Files[];
