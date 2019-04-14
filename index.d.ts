@@ -4,4 +4,4 @@ interface Files {
     label: string;
     file: string;
 }
-declare function getFiles(id: string): Files[];
+declare function getFiles(id: string): Promise<Files[]>;
