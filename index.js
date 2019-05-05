@@ -1,3 +1,3 @@
-const OpenPlayer = require("./lib/open_player");
+const GDrive = require("./lib/gdrive");
 
-module.exports = OpenPlayer;
+module.exports = GDrive;

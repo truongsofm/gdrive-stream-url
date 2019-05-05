@@ -4,4 +4,8 @@ interface Files {
     label: string;
     file: string;
 }
-declare function getFiles(id: string): Files[];
+interface Response {
+    cookie: string;
+    sources: Files[]
+}
+declare function getStreamFiles(id: string): Response;
