@@ -11,6 +11,6 @@
   "license": "MIT",
   "dependencies": {
     "node-fetch": "^2.3.0",
-    "axios": "^0.19.2",
+    "axios": "^0.19.2"
   }
 }
